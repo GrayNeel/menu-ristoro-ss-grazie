@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="it" data-lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ristoro Madonna delle Grazie — Menù della Festa</title>
+<meta name="description" content="Menù del Ristoro Madonna delle Grazie per la Festa in onore di Maria SS delle Grazie, San Giovanni di Gerace, 18–20 Settembre.">
+<meta name="theme-color" content="#ec3013">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="page">
+
+  <header class="header">
+    <div class="eyebrow"><span class="it">Festa in onore di</span><span class="en">Feast in honour of</span></div>
+    <h1 class="title">Maria SS<br>delle Grazie</h1>
+    <div class="rule rule-light"></div>
+    <div class="header-row">
+      <div class="place">San Giovanni<br>di Gerace</div>
+      <div class="dates">18 · 19 · 20<br><span class="month"><span class="it">Settembre 2026</span><span class="en">September 2026</span></span></div>
+    </div>
+  </header>
+
+  <div class="identity">
+    <div class="venue">Ristoro<br>Madonna delle Grazie</div>
+    <div class="lang-switch" role="group" aria-label="Language / Lingua">
+      <button type="button" class="lang-btn" data-lang-btn="it" aria-pressed="true">IT</button>
+      <button type="button" class="lang-btn" data-lang-btn="en" aria-pressed="false">EN</button>
+    </div>
+  </div>
+
+  <nav class="nav" id="site-nav">
+    <button type="button" class="nav-tab" data-scroll-to="sec-menu"><span class="it">Menù</span><span class="en">Set menu</span></button>
+    <button type="button" class="nav-tab" data-scroll-to="sec-carte"><span class="it">Alla carte</span><span class="en">À la carte</span></button>
+    <button type="button" class="nav-tab" data-scroll-to="sec-drinks"><span class="it">Bibite</span><span class="en">Drinks</span></button>
+    <button type="button" class="nav-tab" data-scroll-to="sec-festa"><span class="it">La festa</span><span class="en">The feast</span></button>
+  </nav>
+
+  <!-- ============ SET MENU ============ -->
+  <section class="section" id="sec-menu">
+    <div class="section-head">
+      <h2 class="section-title"><span class="it">Menù completo</span><span class="en">Set menu</span></h2>
+      <div class="price price-lg">€ 15,00</div>
+    </div>
+    <p class="section-sub">
+      <span class="it">Primo, secondo con contorni, frutta e dolce. Un unico prezzo.</span>
+      <span class="en">First course, main with sides, fruit and dessert. One price.</span>
+    </p>
+    <div class="rule"></div>
+
+    <!-- Primo — TODO: confirm real dish descriptions & allergens with the kitchen; current text is a best guess -->
+    <div class="course">
+      <div class="course-head">
+        <div class="kicker"><span class="it">Primo</span><span class="en">First course</span></div>
+        <div class="choose-tag"><span class="it">a scelta</span><span class="en">choose one</span></div>
+      </div>
+      <div class="items">
+        <div class="item" id="item-p1">
+          <button type="button" class="item-toggle" data-toggle-id="item-p1" aria-expanded="false" aria-controls="detail-p1">
+            <span class="item-name">Pasta alla Corte d’assise</span>
+            <span class="cta">
+              <span class="cta-open"><span class="it">info</span><span class="en">info</span></span>
+              <span class="cta-close"><span class="it">chiudi</span><span class="en">close</span></span>
+            </span>
+          </button>
+          <div class="item-detail" id="detail-p1">
+            <p><span class="it">Primo della tradizione locale, preparato dalle cucine del ristoro.</span><span class="en">Local traditional pasta, made in the ristoro’s kitchen.</span></p>
+            <div class="allergens">
+              <span class="chip"><span class="it">Glutine</span><span class="en">Gluten</span></span>
+              <span class="chip"><span class="it">Latte</span><span class="en">Milk</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="item" id="item-p2">
+          <button type="button" class="item-toggle" data-toggle-id="item-p2" aria-expanded="false" aria-controls="detail-p2">
+            <span class="item-name">Pasta con carne di capra</span>
+            <span class="cta">
+              <span class="cta-open"><span class="it">info</span><span class="en">info</span></span>
+              <span class="cta-close"><span class="it">chiudi</span><span class="en">close</span></span>
+            </span>
+          </button>
+          <div class="item-detail" id="detail-p2">
+            <p><span class="it">Pasta con sugo di carne di capra, piatto simbolo della festa.</span><span class="en">Pasta with goat meat sauce — the dish of the feast.</span></p>
+            <div class="allergens">
+              <span class="chip"><span class="it">Glutine</span><span class="en">Gluten</span></span>
+              <span class="chip"><span class="it">Sedano</span><span class="en">Celery</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Secondo — TODO: confirm real descriptions & allergens -->
+    <div class="course">
+      <div class="course-head">
+        <div class="kicker"><span class="it">Secondo</span><span class="en">Main course</span></div>
+      </div>
+      <div class="items">
+        <div class="item" id="item-s1">
+          <button type="button" class="item-toggle" data-toggle-id="item-s1" aria-expanded="false" aria-controls="detail-s1">
+            <span class="item-name">Melanzane ripiene</span>
+            <span class="cta">
+              <span class="cta-open"><span class="it">info</span><span class="en">info</span></span>
+              <span class="cta-close"><span class="it">chiudi</span><span class="en">close</span></span>
+            </span>
+          </button>
+          <div class="item-detail" id="detail-s1">
+            <p><span class="it">Melanzane ripiene al forno.</span><span class="en">Oven-baked stuffed aubergines.</span></p>
+            <div class="allergens">
+              <span class="chip"><span class="it">Glutine</span><span class="en">Gluten</span></span>
+              <span class="chip"><span class="it">Uova</span><span class="en">Egg</span></span>
+              <span class="chip"><span class="it">Latte</span><span class="en">Milk</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="item" id="item-s2">
+          <button type="button" class="item-toggle" data-toggle-id="item-s2" aria-expanded="false" aria-controls="detail-s2">
+            <span class="item-name">Formaggio</span>
+            <span class="cta">
+              <span class="cta-open"><span class="it">info</span><span class="en">info</span></span>
+              <span class="cta-close"><span class="it">chiudi</span><span class="en">close</span></span>
+            </span>
+          </button>
+          <div class="item-detail" id="detail-s2">
+            <p><span class="it">Formaggio locale.</span><span class="en">Cheese from local producers.</span></p>
+            <div class="allergens">
+              <span class="chip"><span class="it">Latte</span><span class="en">Milk</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="item" id="item-s3">
+          <button type="button" class="item-toggle" data-toggle-id="item-s3" aria-expanded="false" aria-controls="detail-s3">
+            <span class="item-name">Patatine fritte</span>
+            <span class="cta">
+              <span class="cta-open"><span class="it">info</span><span class="en">info</span></span>
+              <span class="cta-close"><span class="it">chiudi</span><span class="en">close</span></span>
+            </span>
+          </button>
+          <div class="item-detail" id="detail-s3">
+            <p><span class="it">Patatine fritte.</span><span class="en">Fried potatoes.</span></p>
+            <div class="allergens">
+              <span class="chip"><span class="it">Fritto in olio condiviso</span><span class="en">Shared frying oil</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Frutta -->
+    <div class="course">
+      <div class="course-head">
+        <div class="kicker"><span class="it">Frutta</span><span class="en">Fruit</span></div>
+      </div>
+      <div class="items">
+        <div class="item" id="item-f1">
+          <button type="button" class="item-toggle" data-toggle-id="item-f1" aria-expanded="false" aria-controls="detail-f1">
+            <span class="item-name">Frutta di stagione</span>
+            <span class="cta">
+              <span class="cta-open"><span class="it">info</span><span class="en">info</span></span>
+              <span class="cta-close"><span class="it">chiudi</span><span class="en">close</span></span>
+            </span>
+          </button>
+          <div class="item-detail" id="detail-f1">
+            <p><span class="it">Frutta di stagione.</span><span class="en">Seasonal fruit.</span></p>
+            <div class="allergens"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dolce -->
+    <div class="course">
+      <div class="course-head">
+        <div class="kicker"><span class="it">Dolce</span><span class="en">Dessert</span></div>
+      </div>
+      <div class="items">
+        <div class="item" id="item-d1">
+          <button type="button" class="item-toggle" data-toggle-id="item-d1" aria-expanded="false" aria-controls="detail-d1">
+            <span class="item-name">Tortino di ricotta</span>
+            <span class="cta">
+              <span class="cta-open"><span class="it">info</span><span class="en">info</span></span>
+              <span class="cta-close"><span class="it">chiudi</span><span class="en">close</span></span>
+            </span>
+          </button>
+          <div class="item-detail" id="detail-d1">
+            <p><span class="it">Tortino di ricotta.</span><span class="en">Small ricotta tart.</span></p>
+            <div class="allergens">
+              <span class="chip"><span class="it">Glutine</span><span class="en">Gluten</span></span>
+              <span class="chip"><span class="it">Latte</span><span class="en">Milk</span></span>
+              <span class="chip"><span class="it">Uova</span><span class="en">Egg</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ALLA CARTE ============ -->
+  <section class="section" id="sec-carte">
+    <h2 class="section-title"><span class="it">Alla carte</span><span class="en">À la carte</span></h2>
+    <div class="rule"></div>
+
+    <div class="carte-item" id="item-c1">
+      <button type="button" class="item-toggle carte-toggle" data-toggle-id="item-c1" aria-expanded="false" aria-controls="detail-c1">
+        <span class="item-name item-name-lg">Tagliere con affettati e formaggi</span>
+        <span class="price">€ 15,00</span>
+      </button>
+      <div class="note">
+        <span class="it">Il tagliere è in omaggio e potrà essere portato a casa</span>
+        <span class="en">The wooden board is a gift — take it home with you</span>
+      </div>
+      <div class="item-detail" id="detail-c1">
+        <p><span class="it">Affettati e formaggi serviti su tagliere di legno.</span><span class="en">Cured meats and cheeses served on a wooden board.</span></p>
+        <div class="allergens">
+          <span class="chip"><span class="it">Latte</span><span class="en">Milk</span></span>
+          <span class="chip"><span class="it">Solfiti</span><span class="en">Sulphites</span></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="carte-item" id="item-c2">
+      <button type="button" class="item-toggle carte-toggle" data-toggle-id="item-c2" aria-expanded="false" aria-controls="detail-c2">
+        <span class="item-name item-name-lg">Panino con salsiccia</span>
+        <span class="price">€ 5,00</span>
+      </button>
+      <div class="item-detail" id="detail-c2">
+        <p><span class="it">Salsiccia alla brace nel panino.</span><span class="en">Grilled sausage in a bread roll.</span></p>
+        <div class="allergens">
+          <span class="chip"><span class="it">Glutine</span><span class="en">Gluten</span></span>
+          <span class="chip"><span class="it">Solfiti</span><span class="en">Sulphites</span></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="carte-item" id="item-c3">
+      <button type="button" class="item-toggle carte-toggle" data-toggle-id="item-c3" aria-expanded="false" aria-controls="detail-c3">
+        <span class="item-name item-name-lg">Zeppole</span>
+        <span class="price">€ 1,00 / cad</span>
+      </button>
+      <div class="item-detail" id="detail-c3">
+        <p><span class="it">Zeppole fritte, prezzo al pezzo.</span><span class="en">Fried dough zeppole, priced each.</span></p>
+        <div class="allergens">
+          <span class="chip"><span class="it">Glutine</span><span class="en">Gluten</span></span>
+          <span class="chip"><span class="it">Fritto in olio condiviso</span><span class="en">Shared frying oil</span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DRINKS ============ -->
+  <section class="section" id="sec-drinks">
+    <h2 class="section-title"><span class="it">Bibite</span><span class="en">Drinks</span></h2>
+    <div class="rule"></div>
+
+    <div class="drink-row">
+      <span class="drink-name"><span class="it">Coca cola</span><span class="en">Coca cola</span></span>
+      <span class="price price-md">€ 2,00</span>
+    </div>
+    <div class="drink-row">
+      <span class="drink-name"><span class="it">Acqua</span><span class="en">Water</span></span>
+      <span class="price price-md">€ 1,00</span>
+    </div>
+    <div class="drink-row">
+      <span class="drink-name"><span class="it">Birra Peroni</span><span class="en">Peroni beer</span></span>
+      <span class="price price-md">€ 2,00</span>
+    </div>
+
+    <p class="allergen-note">
+      <span class="it">Tocca un piatto per vedere ingredienti e allergeni. Per intolleranze chiedi al banco.</span>
+      <span class="en">Tap a dish for ingredients and allergens. Please ask at the counter about intolerances.</span>
+    </p>
+  </section>
+
+  <!-- ============ THE FEAST ============ -->
+  <section class="section section-dark" id="sec-festa">
+    <h2 class="section-title section-title-light"><span class="it">La festa</span><span class="en">The feast</span></h2>
+    <div class="rule rule-light"></div>
+
+    <!-- TODO: confirm real programme times for 18-20 Sept — currently placeholders -->
+    <div class="program-row">
+      <div class="program-day">18 SET</div>
+      <div>
+        <div class="program-title"><span class="it">Apertura del ristoro</span><span class="en">Ristoro opens</span></div>
+        <div class="program-time"><span class="it">dalle 19:00</span><span class="en">from 7:00 pm</span></div>
+      </div>
+    </div>
+    <div class="program-row">
+      <div class="program-day">19 SET</div>
+      <div>
+        <div class="program-title"><span class="it">Giornata della festa</span><span class="en">Feast day</span></div>
+        <div class="program-time"><span class="it">pranzo e cena</span><span class="en">lunch and dinner</span></div>
+      </div>
+    </div>
+    <div class="program-row">
+      <div class="program-day">20 SET</div>
+      <div>
+        <div class="program-title"><span class="it">Processione e chiusura</span><span class="en">Procession and closing</span></div>
+        <div class="program-time"><span class="it">dalle 18:00</span><span class="en">from 6:00 pm</span></div>
+      </div>
+    </div>
+
+    <a class="map-link" href="https://maps.google.com/?q=San+Giovanni+di+Gerace" target="_blank" rel="noopener">
+      <span><span class="it">Come arrivare</span><span class="en">Get directions</span></span>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="square"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+    </a>
+
+    <p class="org-note">
+      <span class="it">Ristoro a cura dei volontari della festa. Orari e programma possono variare.</span>
+      <span class="en">The ristoro is run by the feast’s volunteers. Times and programme may change.</span>
+    </p>
+  </section>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
