@@ -325,3 +325,8 @@ html[data-lang="it"] .en { display: none; }
   background: #dd2b0f;
   text-decoration: none;
 }
+.org-note {
+  margin: 16px 0 0;
+  font: 400 12px/1.5 "Archivo", sans-serif;
+  color: #9b9797;
+}
