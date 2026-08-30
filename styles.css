@@ -21,7 +21,6 @@ html[data-lang="it"] .en { display: none; }
   margin: 0 auto;
   background: #f3f2f2;
   min-height: 100vh;
-  padding-bottom: 56px;
   box-shadow: 0 0 40px rgba(0, 0, 0, .08);
 }
 
@@ -303,9 +302,14 @@ html[data-lang="it"] .en { display: none; }
   color: #605d5d;
 }
 
-/* ---------- map ---------- */
+/* ---------- footer ---------- */
+.footer {
+  margin-top: 32px;
+  background: #201e1d;
+  color: #f3f2f2;
+  padding: 26px 20px max(26px, calc(env(safe-area-inset-bottom) + 14px));
+}
 .map-link {
-  margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
